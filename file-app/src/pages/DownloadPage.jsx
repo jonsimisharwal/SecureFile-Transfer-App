@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDownload } from '../hooks/useDownload';
-import { useCountdown } from '../hooks/useCountdown';
+import { useCountdown } from '../hooks/useCountDown';
 import TransferStats from '../components/TransferStats';
 import { formatBytes } from '../hooks/useTransferstats';
 

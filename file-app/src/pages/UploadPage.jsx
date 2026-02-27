@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { useUpload } from '../hooks/useUpload';
-import { useCountdown } from '../hooks/useCountdown';
+import { useCountdown } from '../hooks/useCountDown';
 import TransferStats from '../components/TransferStats';
 import { formatBytes } from '../hooks/useTransferstats';
 
