@@ -1,5 +1,6 @@
+file-app/.env
+Backend/.env
 node_modules/
-.env
-package-lock.json
-dist/
-build/
+Backend/node_modules/
+file-app/node_modules/
+file-app/Dist
