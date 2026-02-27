@@ -4,12 +4,12 @@
  * Server only ever receives/sends encrypted bytes — never plaintext.
  */
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const BASE_URL = import.meta.env.VITE_API_URL ;
 
 // ─── Upload Encrypted File ────────────────────────────────────────────────────
 
 /**
- * Upload an encrypted file blob to the backend.
+ * Upload an encrypted file blob to the backend.'
  *
  * @param {Object} params
  * @param {ArrayBuffer} params.encryptedBuffer - AES-GCM encrypted bytes

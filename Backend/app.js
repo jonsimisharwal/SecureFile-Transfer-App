@@ -11,7 +11,7 @@ app.use(helmet());
 
 // CORS — expose Content-Length so frontend can track download progress
 app.use(cors({
-  origin: process.env.ALLOWED_ORIGIN || 'http://localhost:5173',
+  origin: process.env.ALLOWED_ORIGIN ,
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   exposedHeaders: ['Content-Length'],   // ← required for download progress
